@@ -1,5 +1,5 @@
-import java.awt.*;
-import javax.swing.*;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane
 public class Window(){
     private static void createwindow(){
       //set up window
@@ -13,6 +13,12 @@ public class Window(){
         frame.pack();
         frame.setVisible(true); 
     }
+    //create popup message that says Hello World
+    public class MessagePopUps {
+      public static void main(String[] a){
+        JFrame parent = new JFrame();
+        JOptionPane.showMessageDialog(parent, "Hello World");
+      }}
     public static void main(String[] args) {
         createwindow();
     }
