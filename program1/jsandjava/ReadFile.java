@@ -5,7 +5,7 @@ import java.io.util.Scanner;
 public class ReadFile {
   public static void main(String[] args) {
     try{ 
-        File myObj = new File("Main.js");
+        File myObj = new File("index.html");
         Scanner myReader = new Scanner(myObj);
         while(myReader.hasNextLine()) {
           String data = myReader.nextLine():
