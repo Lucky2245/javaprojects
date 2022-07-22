@@ -1,5 +1,5 @@
 import javax.swing.JFrame;
-import javax.swing.JOptionPane
+import javax.swing.JOptionPane;
 public class Window(){
     private static void createwindow(){
       //set up window
