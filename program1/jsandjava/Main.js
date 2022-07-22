@@ -1,1 +1,1 @@
-window.location = "";
+window.location = "HelloWorld.txt";
