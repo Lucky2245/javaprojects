@@ -5,7 +5,7 @@ public class Window(){
       //set up window
         JFrame frame =  new JFrame("Simple Window");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JLabel textlabel = new JLabel("Welcome To My App", swingConstants.CENTER);
+        JLabel textlabel = new JLabel("Hello World App", swingConstants.CENTER);
         textlabel.setPreferredSize(new Dimension(300, 100));
         frame.getcontentPane().add(textlabel, BorderLayout.CENTER);
         //Display the window
