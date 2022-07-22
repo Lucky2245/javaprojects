@@ -21,9 +21,14 @@ public class Main {
     int mynumber = 10;/*The int data type can store whole numbers from -2147483648 to 2147483647. In general, and in our tutorial, the int data type is the preferred data type when we create variables with a numeric value.*/
     System.out.println(mynumber);
     /*You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.
+    The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles:*/
+    double numbt = 19.9d;
+    System.out.println(numbt);
+    float numbtf = 19.5f;
+    System.out.println(numbtf);
+    /*The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
 
-The float and double data types can store fractional numbers. Note that you should end the value with an "f" for floats and "d" for doubles:*/
-    double numbt = 19.9;
-  
+*/
+    char myGrade = 'B';
   }
 }
