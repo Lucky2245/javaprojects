@@ -1,2 +1,2 @@
-f = open("Main.java", "r")
+f = open("ReadFile.java", "r")
 print(f.read())
